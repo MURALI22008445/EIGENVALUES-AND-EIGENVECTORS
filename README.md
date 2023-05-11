@@ -14,6 +14,7 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 ### Step 4: 
 End the program
 ## Program:
+```
 #Program to find the eigen values and eigen vectors.
 #Developed by: murali
 #RegisterNumber: 212222230088
@@ -21,6 +22,7 @@ import numpy as np
 A=np.array([[4,2],[2,4]])
 evalues,evector=np.linalg.eig(A)
 print("Eigen values are {0} and Eigen Vectors are {1}".format(evalues,evector))
+```
 ## Output:
 ![ai exp 4](https://github.com/MURALI22008445/EIGENVALUES-AND-EIGENVECTORS/assets/119643767/e34f9a4c-f194-423a-937b-3d73c1ac396a)
 ## Result:
