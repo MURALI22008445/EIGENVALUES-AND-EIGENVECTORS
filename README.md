@@ -18,7 +18,7 @@ End the program
 #Developed by: murali
 #RegisterNumber: 212222230088
 import numpy as np
-A=np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
+A=np.array([[4,2],[2,4]])
 evalues,evector=np.linalg.eig(A)
 print("Eigen values are {0} and Eigen Vectors are {1}".format(evalues,evector))
 ## Output:
